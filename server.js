@@ -37,7 +37,8 @@ app.get('/health', (req, res) => {
     status: 'ok', 
     service: 'OpenAI to NVIDIA NIM Proxy', 
     reasoning_display: SHOW_REASONING,
-    thinking_mode: ENABLE_THINKING_MODE
+    thinking_mode: ENABLE_THINKING_MODE,
+    api: NIM_API_KEY
   });
 });
 
